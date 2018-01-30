@@ -13,11 +13,12 @@
     <title>Student Profile</title>
   </head>
   <body>
-
+  
+  
     <header>
-    <!-- Nav bar insert -->
+    
         <nav class="navbar navbar-expand-lg navbar-light bg-info" id="color4nav">
-
+   
             <a class="navbar-brand" href="index.html" id="tannerHeaderMargin">Tanner McClain</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse"   data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -26,20 +27,18 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html">About</a>
+                  <a class="nav-link" href="index.html" id="directoryHeaders">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                  <a class="nav-link" href="portfolio.html" id="directoryHeaders">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
+                  <a class="nav-link" href="contact.html" id="directoryHeaders" id="contact">Contact</a>
                 </li>
               </ul>
             </div>
           </nav>
       </header>
-
-    <!-- Personal Profile and Picture -->
 
 <div class="container-fluid">
     <div class="row">
@@ -47,37 +46,39 @@
     </div>
 </div>
 
-
+<!-- Can't figure out how to increase the margins between the panel and the header -->
 <div class="container">
 <!-- Panel insert -->
       <div class="row">
-        <div class="col-md-8">
-          <div class="card card-info bg-white border-info">
-            <div class="card-header">About Me</div>
+        <div class="col-md-8" style="margin-top: 20px; margin-bottom: 80px;">
+          <div class="card card-info bg-white border-info" id="border2">
+            <h2 class="card-header" style="color: #4aaaa5">About Me</h2>
             <div class="card-body">
               <div class="col-md-12">
-                <img class="img-thumbnail img-responsive" class="float-left" class="d-inline" class="rounded" src="images/Murica1.jpg" alt="Me"><p class="float-right" style="word-wrap: break-word">Hello, my name is Tanner McClain and I’m an aspiring full-stack developer. Though I do not have an extensive coding background, I have yet to back down from a challenge and have worked against far tougher odds weighed against me. In my educational career, I maintained a 3.4+ GPA at Sacramento State earning a BA in Government with minors in Engineering and Mathematics while working a physically demanding job in the construction field. I’ve worked for non-profits, served my community and participated in political activism. After working for a political entity for a year, I returned to the construction field to take a break from the 24-hr cycle of crazy…and this was even before Donald Trump (Ha!). I needed to maintain a job for all practical reasons, but have definitely wanted to find another field to venture into that promotes and pushes the boundaries of my abilities more than my current position.</p>
-
-              <p>Now on the fun side of things, I try to enjoy my limited time when I’m not working or in school. I’m a Netflix and streaming junkie, literally watched the office seasons 1-9 10 times. When I’m not trying to zone out in my bean bag (yes I own a bean bag, its huge) I’m listening to music, researching political developments, watching video commentary, the news and doing some creative writing. I still manage to be able to find time to work out frequently and go out to the bars with friends every once in a while. I’ve got a killer sense of humor, like long walks on the beach and love Chilis (the restaurant). If you want to know more, just ask!</p></div>
+                <img class="img-thumbnail img-responsive" class="float-left" class="d-inline" class="rounded" id="img1" src="images/Murica1.jpg" alt="Me">
+                <p style="word-wrap: break-word">Hello, my name is Tanner McClain and I’m an aspiring full-stack developer. Though I do not have an extensive coding background, I have yet to back down from a challenge and have worked against far tougher odds weighed against me. In my educational career, I maintained a 3.4+ GPA at Sacramento State earning a BA in Government with minors in Engineering and Mathematics while working a physically demanding job in the construction field. I’ve worked for non-profits, served my community and participated in political activism. After working for a political entity for a year, I returned to the construction field to take a break from the 24-hr cycle of crazy…and this was even before Donald Trump (Ha!). I needed to maintain a job for all practical reasons, but have definitely wanted to find another field to venture into that promotes and pushes the boundaries of my abilities more than my current position.</p>
+                <p style="word-wrap: break-word">Now on the fun side of things, I try to enjoy my limited time when I’m not working or in school. I’m a Netflix and streaming junkie, literally watched the office seasons 1-9 10 times. When I’m not trying to zone out in my bean bag (yes I own a bean bag, its huge) I’m listening to music, researching political developments, watching video commentary, the news and doing some creative writing. I still manage to be able to find time to work out frequently and go out to the bars with friends every once in a while. I’ve got a killer sense of humor, like long walks on the beach and love Chilis (the restaurant). If you want to know more, just ask!</p></div>
           </div>
         </div>
       </div>
 
    <!-- Sidebar -->
-          <div class="col-md-4">
-              <div class="card card-info">
-                  <h2 class="card-header">Connect with Me</h2>
+          <div class="col-md-4" style="margin-top: 20px; margin-bottom: 150px;">
+              <div class="card card-info bg-white border-info" id="border2">
+                  <h4 class="card-header" style="color: #4aaaa5">Connect with Me</h4>
                 <div class="card-body">
-                      <a href="https://github.com/tann3rjm129"><img src="images/github.png" class="img-responsive" id="social"></a><a href="https://www.linkedin.com/in/tanner-mcclain-31a614156/"><img src="images/linkedin.png" class="img-responsive" id="social"></a><a href="https://stackoverflow.com/users/9175386/t-dawg"><img src="images/overflow.png" class="img-responsive" id="social"></a>
+                  <div class="row">
+                      <a href="https://github.com/tann3rjm129"><img src="images/github.png" class="img-responsive" id="social" style="margin-left: 10px; margin-right: 10px;"></a><a href="https://www.linkedin.com/in/tanner-mcclain-31a614156/"><img src="images/linkedin.png" class="img-responsive" id="social" style="margin-right: 10px;"></a><a href="https://stackoverflow.com/users/9175386/t-dawg"><img src="images/overflow.png" class="img-responsive" id="social" style="margin-right: 10px;"></a>
                 </div>
               </div>
             </div>
       </div>
 </div>
+</div>
                          
 
-    <!--Footer -->
-  <footer class="footer">
+  <!--Footer -->
+ <footer class="footer" id="footer1">
       <div class="container">
         <span class="text-muted">Copyright © 2018 Tanner McClain</span>    
       </div>

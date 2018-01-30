@@ -14,9 +14,9 @@
   <body>
     
  <header>
-    <!-- Nav bar insert -->
+    
         <nav class="navbar navbar-expand-lg navbar-light bg-info" id="color4nav">
-
+   
             <a class="navbar-brand" href="index.html" id="tannerHeaderMargin">Tanner McClain</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse"   data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -25,13 +25,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html">About</a>
+                  <a class="nav-link" href="index.html" id="directoryHeaders">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                  <a class="nav-link" href="portfolio.html" id="directoryHeaders">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
+                  <a class="nav-link" href="contact.html" id="directoryHeaders" id="contact">Contact</a>
                 </li>
               </ul>
             </div>
@@ -47,12 +47,12 @@
 </div>
 
 
-<div class="container">
+<div class="container" >
 <!-- Panel insert -->
       <div class="row">
-        <div class="col-md-8">
-          <div class="card card-info bg-white border-info">
-            <div class="card-header">Contact</div>
+        <div class="col-md-8" style="margin-top: 20px; margin-bottom: 80px;">
+          <div class="card card-info bg-white border-info" id="border2">
+            <h2 class="card-header" style="color: #4aaaa5">Contact</h2>
             <div class="card-body">
               <div class="col-md-12">
                 <form>
@@ -66,7 +66,9 @@
                   </div>
                   <div class="form-group">
                     <label for="exampleTextarea">Message</label>
-                    <textarea class="form-control" id="exampleTextarea" rows="5"></textarea>
+                    <textarea class="form-control" placeholder="blah blah blah..." id="exampleTextarea" rows="5"></textarea>
+                  <button type="submit" class="btn btn-#4aaaa5" style="margin-top: 15px;">Submit</button>
+
                   </div>
                   </form>
                 </div>
@@ -75,11 +77,13 @@
       </div>
 
    <!-- Sidebar -->
-          <div class="col-md-4">
-              <div class="card card-info">
-                  <h2 class="card-header">Connect with Me</h2>
+           <div class="col-md-4" style="margin-top: 20px; margin-bottom: 150px;">
+              <div class="card card-info bg-white border-info" id="border2">
+                  <h4 class="card-header" style="color: #4aaaa5">Connect with Me</h4>
                 <div class="card-body">
-                      <a href="https://github.com/tann3rjm129"><img src="images/github.png" class="img-responsive"></a><a href="https://www.linkedin.com/in/tanner-mcclain-31a614156/"><img src="images/linkedin.png" class="img-responsive"></a><a href="https://stackoverflow.com/users/9175386/t-dawg"><img src="images/overflow.png" class="img-responsive"></a>
+                  <div class="row">
+                      <a href="https://github.com/tann3rjm129"><img src="images/github.png" class="img-responsive" id="social" style="margin-left: 10px; margin-right: 10px;"></a><a href="https://www.linkedin.com/in/tanner-mcclain-31a614156/"><img src="images/linkedin.png" class="img-responsive" id="social" style="margin-right: 10px;"></a><a href="https://stackoverflow.com/users/9175386/t-dawg"><img src="images/overflow.png" class="img-responsive" id="social" style="margin-right: 10px;"></a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -87,8 +91,8 @@
 </div>
                          
 
-    <!--Footer -->
-  <footer class="footer">
+   <!--Footer -->
+  <footer class="footer" id="footer1">
       <div class="container">
         <span class="text-muted">Copyright © 2018 Tanner McClain</span>    
       </div>
